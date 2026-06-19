@@ -70,7 +70,7 @@
   async function startAudio() {
     try {
       stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
-      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      audioCtx = new (window.AudioContext)();
       source = audioCtx.createMediaStreamSource(stream);
 
       canvasCtx = canvas.getContext('2d');

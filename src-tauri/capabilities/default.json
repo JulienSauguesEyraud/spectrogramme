@@ -3,8 +3,8 @@
   "identifier": "default",
   "description": "Capability for the main window",
   "windows": ["main"],
-"permissions": [
-  "core:default",
-  "core:webview:default"
-]
+  "permissions": [
+    "core:default",
+    "core:webview:default"
+  ]
 }
